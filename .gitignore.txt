@@ -1,0 +1,81 @@
+# .NET
+bin/
+obj/
+*.swp
+*.suo
+*.user
+*.userprefs
+*.vs/
+*.vscode/
+*.sln.docstates
+
+# IDE
+.idea/
+*.ipr
+*.iws
+
+# Package Manager
+node_modules/
+npm-debug.log*
+yarn.lock
+.pnp/
+
+# Logs and Debugging
+logs/
+*.log
+*.log.*
+
+# User-specific files
+*.bak
+*.cache
+*.history
+*.pidb
+*.resharper*
+*.sdf
+*.sqlite
+*.userprefs
+*.vspscc
+*.vspuser
+*.vsp
+*.suo
+*.[Cc]ache/
+*.localhistory/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml
+*.opencover
+*.dotcover
+*.csproj.user
+
+# Test Results
+[Test]Results*/
+[Tt]est[Rr]esults*/
+*.trx
+*.TestResults
+_UpgradeReport_Files/
+_TestReport/
+
+# Resharper
+_ReSharper*/
+
+# DotCover
+*.dotCover
+
+# StyleCop
+StyleCopReport.xml
+
+# NDepend
+NDependOut/
+NDependReport/
+NDepend/
