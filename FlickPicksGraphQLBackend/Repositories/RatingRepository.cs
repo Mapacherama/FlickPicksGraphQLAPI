@@ -1,6 +1,6 @@
-﻿namespace FlickPicksGraphQLBackend.Controllers
+﻿namespace FlickPicksGraphQLBackend.Repositories
 {
-    public class MovieController
+    public class UserRepository
     {
     }
 }

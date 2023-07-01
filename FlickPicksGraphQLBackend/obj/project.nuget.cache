@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QxfzIo8O97brVPh+r6H1Er08t12wjQ7PGRziJ6qASwfgmthQUE90SEWn4fTL3wQmOzdaf6BP3xrNjVlDo0BntQ==",
+  "dgSpecHash": "TA19ojYskEVvcEFfi2IzPZXzFRlHOeyNm+YrZsKJw3goDQIBIdPyi7yrrcLLH3XSI0GhTM+fufRzuvrOSCNKEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\FlickPicksGraphQLBackend\\FlickPicksGraphQLBackend\\FlickPicksGraphQLBackend.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Documents\\GitHub\\FlickPicksGraphQLAPI\\FlickPicksGraphQLBackend\\FlickPicksGraphQLBackend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\greendonut\\13.2.1\\greendonut.13.2.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\hotchocolate\\13.2.1\\hotchocolate.13.2.1.nupkg.sha512",

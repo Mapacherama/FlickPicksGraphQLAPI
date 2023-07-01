@@ -1,6 +1,6 @@
 ﻿namespace FlickPicksGraphQLBackend.Graphql
 {
-    public class Query
+    public class User
     {
     }
 }

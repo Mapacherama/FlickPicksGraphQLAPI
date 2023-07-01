@@ -1,6 +1,6 @@
 ﻿namespace FlickPicksGraphQLBackend.Models
 {
-    public class Query
+    public class Movie
     {
     }
 }

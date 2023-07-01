@@ -2246,11 +2246,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\FlickPicksGraphQLBackend\\FlickPicksGraphQLBackend\\FlickPicksGraphQLBackend.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\FlickPicksGraphQLAPI\\FlickPicksGraphQLBackend\\FlickPicksGraphQLBackend.csproj",
       "projectName": "FlickPicksGraphQLBackend",
-      "projectPath": "C:\\Users\\Administrator\\source\\repos\\FlickPicksGraphQLBackend\\FlickPicksGraphQLBackend\\FlickPicksGraphQLBackend.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\FlickPicksGraphQLAPI\\FlickPicksGraphQLBackend\\FlickPicksGraphQLBackend.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\source\\repos\\FlickPicksGraphQLBackend\\FlickPicksGraphQLBackend\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\FlickPicksGraphQLAPI\\FlickPicksGraphQLBackend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
