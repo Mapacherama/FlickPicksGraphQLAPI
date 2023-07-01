@@ -11,4 +11,8 @@
     <PackageReference Include="HotChocolate.AspNetCore.Playground" Version="10.5.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+
 </Project>
