@@ -1,6 +1,0 @@
-C:\Users\Administrator\source\repos\FlickPicksGraphQLBackend\FlickPicksGraphQLBackend\obj\Debug\net6.0\FlickPicksGraphQLBackend.csproj.AssemblyReference.cache
-C:\Users\Administrator\source\repos\FlickPicksGraphQLBackend\FlickPicksGraphQLBackend\obj\Debug\net6.0\FlickPicksGraphQLBackend.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Administrator\source\repos\FlickPicksGraphQLBackend\FlickPicksGraphQLBackend\obj\Debug\net6.0\FlickPicksGraphQLBackend.AssemblyInfoInputs.cache
-C:\Users\Administrator\source\repos\FlickPicksGraphQLBackend\FlickPicksGraphQLBackend\obj\Debug\net6.0\FlickPicksGraphQLBackend.AssemblyInfo.cs
-C:\Users\Administrator\source\repos\FlickPicksGraphQLBackend\FlickPicksGraphQLBackend\obj\Debug\net6.0\FlickPicksGraphQLBackend.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\source\repos\FlickPicksGraphQLBackend\FlickPicksGraphQLBackend\obj\Debug\net6.0\FlickPicksGraphQLBackend.MvcApplicationPartsAssemblyInfo.cache
