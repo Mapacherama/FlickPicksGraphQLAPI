@@ -15,8 +15,4 @@
     <PackageReference Include="MySql.Data" Version="8.1.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="GraphQL\Types\" />
-  </ItemGroup>
-
 </Project>

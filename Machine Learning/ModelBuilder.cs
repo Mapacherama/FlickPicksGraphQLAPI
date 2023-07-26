@@ -1,6 +1,7 @@
 ﻿using Microsoft.ML;
 using Microsoft.ML.Data;
 using Microsoft.ML.Trainers;
+using Yarp.ReverseProxy.Transforms;
 
 namespace FlickPicksGraphQLAPI.Machine_Learning
 {
@@ -13,7 +14,7 @@ namespace FlickPicksGraphQLAPI.Machine_Learning
             _mlContext = mLContext;
         }
 
-        public void BuildModel()
+        public IDataView BuildModel()
         {
             // Load the data
             var dataView = _mlContext.Data.LoadFromTextFile<MovieData>("../Data/top_1000_popular_movies_tmdb.csv", separatorChar: ',', hasHeader: true);
@@ -35,6 +36,8 @@ namespace FlickPicksGraphQLAPI.Machine_Learning
 
             // Compute similarity between items
             // This depends on your specific requirements and might involve custom code
+
+            return transformedDataView;
         }
 
 
