@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlickPicksGraphQLAPI", "FlickPicksGraphQLAPI\FlickPicksGraphQLAPI.csproj", "{AD9E1C6E-8BFC-42DD-9D83-0BF47776A8A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlickPicksGraphQLAPI", "FlickPicksGraphQLAPI.csproj", "{E8BD3C2C-4537-4875-B208-CEBAB442EC48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AD9E1C6E-8BFC-42DD-9D83-0BF47776A8A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AD9E1C6E-8BFC-42DD-9D83-0BF47776A8A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AD9E1C6E-8BFC-42DD-9D83-0BF47776A8A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AD9E1C6E-8BFC-42DD-9D83-0BF47776A8A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8BD3C2C-4537-4875-B208-CEBAB442EC48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8BD3C2C-4537-4875-B208-CEBAB442EC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8BD3C2C-4537-4875-B208-CEBAB442EC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8BD3C2C-4537-4875-B208-CEBAB442EC48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {61660713-840C-4F72-B42A-6CD73531BB2A}
+		SolutionGuid = {45C7618D-CE8B-4461-A9AE-DC7FCB5026CF}
 	EndGlobalSection
 EndGlobal

@@ -1,32 +1,44 @@
+using FlickPicksGraphQLAPI.GraphQL;
+using WeightliftingTrackerGraphQLAPI.Configuration;
+using WeightliftingTrackerGraphQLAPI.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
 
+string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+// Registering services
+builder.Services.AddDataServices(ApplicationConfigurations.GetConnectionString(builder));
+builder.Services.AddResolvers();
+builder.Services.AddRepositories();
+builder.Services.AddScoped<Query>();
+
 // Add services to the container.
+builder.Services.AddControllers();
+builder.Services.AddGraphQLServer()
+    .AddQueryType<Query>()
+    .AddMutationType<Mutation>();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-
-var summaries = new[]
+if (app.Environment.IsDevelopment())
 {
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+    app.UseDeveloperExceptionPage();
+}
 
-app.MapGet("/weatherforecast", () =>
+app.UseHttpsRedirection();
+
+app.UseCors("Open");
+
+app.UseRouting();
+
+app.UseAuthentication();
+app.UseAuthorization();
+
+app.UseEndpoints(endpoints =>
 {
-    var forecast = Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateTime.Now.AddDays(index),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
+    endpoints.MapControllers();
+    endpoints.MapGraphQL();
 });
 
-app.Run();
-
-internal record WeatherForecast(DateTime Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
+await app.RunAsync();
